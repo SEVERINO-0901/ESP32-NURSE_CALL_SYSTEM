@@ -1,5 +1,5 @@
 ## DADOS DO PROJETO
-- **Nome:** ESP32 - NurseCallSystem; 
+- **Nome:** NurseCallSystem; 
 - **Autor:** Leonardo Severino - leoseverino0901@gmail.com;
 - **Data de Criação:** 25/07/2024 - 18:37:00;
  
