@@ -7,11 +7,8 @@
 - **Descrição:**
   - Implementação em Arduino de um sistema de chamada de enfermagem utilizando dois dispositivos ESP32, no qual um ESP32(Paciente) se comunica com outro ESP32(Servidor) para acionar uma luz quando um paciente solicita atendimento, além de armazenar as informações de MAC address dos dispositivos, ID do paciente que realizou a chamada e o timestamp da desta;
 - **Funcionalidades:**
-  - Leitura do MAC Address: O ESP32 do Paciente lê seu próprio MAC address;
-  - Envio de dados via Web: As informações coletadas são enviadas para uma página web para registro;
-  - Associação de dispositivos: Um programa recebe o MAC address do ESP32 do Paciente e pergunta o número do leito ao qual esse endereço deve ser associado;
-  - Controle da Lâmpada: Com base no número do leito, o sistema identifica qual lâmpada deve ser acionada quando o paciente chama a enfermeira;
-  - Armazenamento de dados: O ESP32 do Paciente grava o seu MAC address, o MAC address do Servidor, o número do leito e o timestamp em seu sistema de arquivos;  
+  - ESP32-Pacient: Realiza e registra chamadas de pacientes. Ele lê o MAC address do ESP32, conecta-se a uma rede Wi-Fi e a um servidor para enviar os dados do paciente que acionou o chamado. As informações incluem o endereço MAC do ESP32, o número do paciente e o timestamp do chamado. Além disso, o código utiliza o sistema de arquivos SPIFFS para armazenar logs localmente e tem a capacidade de formatar o sistema de arquivos. Os botões no ESP32 são utilizados para registrar diferentes chamados e formatar o armazenamento;
+  - ESP32-Server:      
 
 ## DEMONSTRAÇÃO
 - **![Figura 1]**
