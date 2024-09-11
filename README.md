@@ -14,7 +14,7 @@
  - x5 push-buttons;
  - x3 Leds;
  - x3 Resistores de 220 ohms;
- - Possuir a biblioteca 'SPIFFS(https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/1.1)' instalada na IDE do Arduino;      
+ - Possuir a biblioteca 'SPIFFS(https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/1.1)' instalada na IDE do Arduino e inicializar uma imagem SPIFFS no ESP32 do Paciente;      
 
 ## DEMONSTRAÇÃO
 - **![Figura 1]**
