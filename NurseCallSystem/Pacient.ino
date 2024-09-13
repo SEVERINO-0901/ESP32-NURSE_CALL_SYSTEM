@@ -50,11 +50,11 @@ const long  gmtOffset_sec = -10800;
 const int   daylightOffset_sec = 0;
 
 //Credenciais da rede
-const char* ssid  = "SEVERINO_01"; //Nome da rede WiFi
-const char* password  = "a67a70l00"; //Senha da rede WiFi
+const char* ssid  = ""; //Nome da rede WiFi
+const char* password  = ""; //Senha da rede WiFi
 
 //Credenciais do servidor
-const char* server_ip  = "192.168.0.207"; //Endereço IP do servidor
+const char* server_ip  = ""; //Endereço IP do servidor
 const int server_port = 80; //Porta do servidor
 
 WiFiClient server; //Cliente WiFi
