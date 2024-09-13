@@ -6,7 +6,7 @@
 ## SOBRE
 - **Descrição:**
   - Implementação em Arduino de um sistema de chamada de enfermagem utilizando dois dispositivos ESP32, no qual um ESP32(Paciente) se comunica com outro ESP32(Servidor) para acionar uma luz quando um paciente solicita atendimento, além de armazenar as informações de endereço MAC dos dispositivos, ID do paciente que realizou a chamada e o timestamp da desta;
-  - **Requisitos:**
+- **Requisitos:**
    - x2 dispositivos ESP32;
    - x5 push-buttons;
    - x3 Leds;
