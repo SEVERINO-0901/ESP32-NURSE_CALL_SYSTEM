@@ -77,7 +77,6 @@ void setup(){
   Serial.println(WiFi.localIP());
   server.begin(); //Inicia o servidor
   Serial.println("Server Initiated!");
-  
 }
 
 void loop(){
