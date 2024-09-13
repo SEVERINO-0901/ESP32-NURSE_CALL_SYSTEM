@@ -3,7 +3,7 @@ NOME DO PROJETO: NurseCallSystem - Server
 AUTOR: Leonardo Severino - leoseverino0901@gmail.com  
 DATA: 31/07/2024 - 15:26:00
 DESCRIÇÃO:
-  Recebe e processa as chamadas de paciente, conectando-se a uma rede WiFi e iniciando um servidor na porta 80. Quando um cliente se conecta, ele registra os dados recebidos de timestamp, endereço MAC do cliente e ID do paciente que realizou a chamada, 
+  Programa em arduino que recebe e processa as chamadas de paciente, conectando-se a uma rede WiFi e iniciando um servidor na porta 80. Quando um cliente se conecta, ele registra os dados recebidos de timestamp, endereço MAC do cliente e ID do paciente que realizou a chamada, 
 retornando em resposta ao cliente o seu próprio endereço MAC no formato de string. Por fim, ele acende o LED correspondente ao paciente que acionou o chamado, e desliga todos os LEDs ao pressionar o botão de desligar.
 */
 
