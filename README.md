@@ -17,10 +17,11 @@
  - Possuir a biblioteca 'SPIFFS(https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/1.1)' instalada na IDE do Arduino e inicializar uma imagem SPIFFS no ESP32 do Paciente;      
 
 ## DEMONSTRAÇÃO
-- ![Figura 1](https://github.com/SEVERINO-0901/ESP32-NURSE-CALL-SYSTEM/blob/main/Screenshots/f1.jpeg)
-- ![Figura 2](https://github.com/SEVERINO-0901/ESP32-NURSE-CALL-SYSTEM/blob/main/Screenshots/f2.png)
-- ![Figura 3](https://github.com/SEVERINO-0901/ESP32-NURSE-CALL-SYSTEM/blob/main/Screenshots/f3.png)
-- ![Figura 4](https://github.com/SEVERINO-0901/ESP32-NURSE-CALL-SYSTEM/blob/main/Screenshots/f4.png)
-- ![Figura 5](https://github.com/SEVERINO-0901/ESP32-NURSE-CALL-SYSTEM/blob/main/Screenshots/f5.png)
-- ![Figura 6](https://github.com/SEVERINO-0901/ESP32-NURSE-CALL-SYSTEM/blob/main/Screenshots/f6.jpeg)
+![f1](https://github.com/user-attachments/assets/95a9901e-2559-446e-9af8-4daf5002f634)
+![f2](https://github.com/user-attachments/assets/c150ec0c-1980-4714-92c2-60aa09e86461)
+![f3](https://github.com/user-attachments/assets/91112a7e-3e46-42b2-8444-63f13ee91004)
+![f4](https://github.com/user-attachments/assets/fe200c3c-56f5-49a8-9224-740161ca48fa)
+![f5](https://github.com/user-attachments/assets/940c2fb6-5cea-4bb6-88b6-eefb19d2432f)
+![f6](https://github.com/user-attachments/assets/359be2e3-8087-471a-920b-7c0ce48c851c)
+
 
