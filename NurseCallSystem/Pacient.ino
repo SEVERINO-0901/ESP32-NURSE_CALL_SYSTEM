@@ -169,7 +169,7 @@ int ButtonPressed(){ //Função para verificar se um botão foi pressionado
   button2State = digitalRead(BUTTON2); //Atualiza o estado atual do botão 2
   button3State = digitalRead(BUTTON3); //Atualiza o estado atual do botão 3
   button4State = digitalRead(BUTTON4); //Atualiza o estado atual do botão 4
-  if((button1LastState == HIGH and button1State == LOW) xor (button2LastState == HIGH and button2State == LOW) xor (button3LastState == HIGH and button3State == LOW) xor (button4LastState == HIGH and button4State == LOW)) { //Verifica se um botão foi pressionado
+  if((button1LastState == HIGH and button1State == LOW) xor (button2LastState == HIGH and button2State == LOW) xor (button3LastState == HIGH and button3State == LOW) xor (button4LastState == HIGH and button4State == LOW)){ //Verifica se um botão foi pressionado
     if(button1State == LOW){ //Se o botão 1 foi pressionado
       return 1; //Retorna 1
     }
