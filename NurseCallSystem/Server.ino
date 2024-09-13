@@ -39,8 +39,8 @@ String MACclient; //Endereço MAC do cliente
 uint8_t MACaddress[6]; //Endereço MAC do esp32 no formato AA:BB:CC:DD:EE:FF 
 
 //Credenciais da rede
-const char* ssid  = "SEVERINO_01"; //Nome da rede WiFi
-const char* password  = "a67a70l00"; //Senha da rede WiFi
+const char* ssid  = ""; //Nome da rede WiFi
+const char* password  = ""; //Senha da rede WiFi
 
 WiFiServer server(80); //Servidor WiFi, inicializado na porta 80
 
